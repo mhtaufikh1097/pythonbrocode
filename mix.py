@@ -71,7 +71,7 @@ if nama.lower() == "jakarta":
     # Ganti dengan path file mp3 kamu jika beda
     playsound("suarabenar.mp3")  
 else:
-    print("Nama anda bukan ujang.")
+    print("SALAH!!!.")
     playsound("suarasalah.mp3")
 
 

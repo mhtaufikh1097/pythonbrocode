@@ -115,6 +115,59 @@
 # Kalau kamu mau, aku bisa bantu bikinkan fungsi Python-nya juga.
 
 
-#+++++++++++++++++++++++++++++++++++For loop++++++++++++++++++++++++++++++
-for x in range(1, 14, 10):
-    print(x)
+# +++++++++++++++++++++++++++++++++++For loop++++++++++++++++++++++++++++++
+# credit_card = "1234-5678-9012-3456"
+
+# for x in credit_card:
+#         print(x)
+
+
+# for x in range(1, 21):
+#         if x == 15:
+#                 continue
+#         else:
+#                 print(x)
+
+#+++++++++++++++++++++++++++++time up menentukan waktu loading up data
+# import time
+
+# my_time = int(input("ENTER with time in seconds: "))
+
+# for x in range(my_time, 0, -1):
+#         seconds = x % 60
+#         minute = int(x / 60) % 60
+#         hours = int(x / 3600) 
+#         print(f"{hours:02}:{minute:02}:{seconds:02}")
+#         time.sleep(1)
+
+# print("Time'S up!")
+
+#+++++++++++++++++++++++++++++ Nested loop = A loop within another loop (outerminner)
+
+# baris = 10
+
+# for i in range(1, baris + 1):
+    
+#     for s in range(baris - i):
+#         print(" ", end="")
+        
+#     for b in range(i):
+#             print("*", end="")
+            
+#     print()
+
+# baris = int(input("Masukan nilai: "))
+# for i in range(1, baris):
+#     print("*" * i)
+
+# rows = int(input("Enter the # of rows: "))
+# colums3 = int(input("Enter the # of rows: "))
+# symbol = input("enter a symbol to use : ")
+
+# for x in range(rows):
+#     for y in range(colums):
+#         print(symbol, end="")
+#     print()
+
+
+#+++++++++++++++++++++++++++++ LIST SET TUPLE
